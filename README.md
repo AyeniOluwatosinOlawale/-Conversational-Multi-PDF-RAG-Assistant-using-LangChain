@@ -2,7 +2,7 @@
 This project implements a Retrieval Augmented Generation (RAG) system that allows users to interact conversationally with multiple PDF documents stored locally. The assistant retrieves relevant knowledge from PDFs and generates context-aware responses using Large Language Models (LLMs).
 This solution mimics real-world enterprise knowledge assistants used in finance, healthcare, research, and legal domains.
 
-🚀 Project Overview
+# Project Overview
 
 Traditional LLMs rely only on training data and may hallucinate or lack access to private knowledge. This project solves that limitation by combining:
 
@@ -15,7 +15,9 @@ Multi-PDF knowledge integration
 Persistent vector database storage
 
 The assistant enables users to ask questions naturally and receive answers grounded in uploaded documents.
-🏗 System Architecture
+
+
+# System Architecture
 Local PDF Documents
         ↓
 Document Loader
@@ -32,7 +34,7 @@ Conversational Memory
         ↓
 LLM Response Generator
 
-✨ Features
+# Features
 ✅ Multi-PDF Knowledge Base
 
 Automatically loads all PDFs from a local directory.
@@ -61,7 +63,7 @@ Reduces hallucination and improves response accuracy.
 
 Easy to extend with UI, agents, or additional data sources.
 
-🛠 Technologies Used
+# Technologies Used
 
 Python
 
@@ -77,7 +79,7 @@ Recursive Text Chunking
 
 Conversational Retrieval Chain
 
-📂 Project Structure
+# Project Structure
 pdf_chatbot/
 │
 ├── app.py
